@@ -4,7 +4,7 @@ Udacity Front End Nanodegree project.
 
 There are three bookshelves named currently reading, want to read, and read. The green arrow on each books allows you to move the book from one shelf to another. The green pplus at the bottom of the page takes you to theh search screen where you can search by author or title (see below regarding search terms).
 
-## TL;DR
+## Instructions
 
 To get started developing right away:
 

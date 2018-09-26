@@ -2,9 +2,7 @@ import React, {Component} from 'react'
 import SelectShelf from './SelectShelf'
 import PropTypes from 'prop-types'
 
-/* * A component to create a book. */
 class Book extends Component {
-
   static propTypes = {
     books: PropTypes.array
   }
@@ -13,16 +11,11 @@ class Book extends Component {
     this.props.saveBook(book, shelf);
   }
 
-  /* @Description. a function to ensure an image is shown even when there is
-  *   no cover image available
-  *  @Params, {Object} Book
-  */
   coverImg = (book) => {
     let image;
     if (book.imageLinks !== undefined) {
       image = book.imageLinks.thumbnail
     } else {
-      //image taken from clker.com
       image = 'http://www.clker.com/cliparts/7/e/O/F/z/Y/blank-book-th.png';
     }
     return image;

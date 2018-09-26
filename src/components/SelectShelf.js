@@ -1,10 +1,7 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 
-/* * A componenet to create the options menu for each book. */
-
 class SelectShelf extends Component {
-
   state = {
     value: 'none'
   }
